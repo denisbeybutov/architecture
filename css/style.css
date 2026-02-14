@@ -81,11 +81,12 @@ input::placeholder {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     height: 80vh;
-    background: image-set(
+    background: url('../images/header_bg.jpg');
+    /* background: image-set(
         url('../images/header_bg.avif') type('image.avif'),
         url('../images/header_bg.webp') type('image.webp'),
         url('../images/header_bg.jpg') 
-    );
+    ); */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
